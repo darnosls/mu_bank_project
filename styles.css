@@ -1,0 +1,198 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto escura */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex; /* Para alinhar logo e menu */
+    justify-content: space-between; /* Espaçamento entre logo e menu */
+    align-items: center; /* Alinhamento vertical */
+}
+
+header img {
+    height: 50px; /* Altura da logo */
+}
+
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinha os itens do menu */
+}
+
+nav li {
+    margin-left: 20px; /* Espaçamento entre os itens do menu */
+}
+
+nav a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #333; /* Cor do texto dos links */
+}
+
+.btn-abrir-conta {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Seção Hero */
+.hero {
+    background-image: url('./assets/hero-background.jpg'); /* Imagem de fundo (substitua pelo caminho correto) */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white; /* Cor do texto branca */
+}
+
+.hero h1 {
+    font-size: 3em; /* Tamanho da fonte do título */
+    margin-bottom: 20px;
+}
+
+
+.benefits {
+    padding: 40px 80px;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .benefits ul li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .benefits ul li h3 {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .benefits ul li p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+
+
+
+/* Seção Limite */
+.limite {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.limite h2 {
+    font-size: 2em; /* Tamanho da fonte do título */
+    color: #4CAF50; /* Cor verde do título */
+}
+
+/* Seção Vantagens */
+.vantagens {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.vantagem {
+    display: flex; /* Alinha os elementos da vantagem */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.vantagem img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Seção Serviços */
+.services {
+    padding: 40px 80px;
+    background-color: #f9f9f9;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .service {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .service .content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .service h3 {
+    font-size: 2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .service .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .service .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .service:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+    
+
+/* Rodapé */
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.app-stores {
+    margin-top: 20px;
+}
+
+.app-stores img {
+    height: 40px;
+    margin: 0 10px;
+}
