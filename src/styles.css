@@ -1,15 +1,15 @@
 @import "./core.css";
 
-/* Estilos Gerais */
+html,
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-  /* Fonte padrão */
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  /* Cor de fundo clara */
   color: #333;
-  /* Cor do texto escura */
 }
 
 /* Cabeçalho */
@@ -230,4 +230,9 @@ footer {
 
 footer {
   background-color: var(--Verde-700);
+}
+
+footer p {
+  padding: 0;
+  margin: 0;
 }
