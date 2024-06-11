@@ -227,3 +227,7 @@ footer {
   height: 40px;
   margin: 0 10px;
 }
+
+footer {
+  background-color: var(--Verde-700);
+}
