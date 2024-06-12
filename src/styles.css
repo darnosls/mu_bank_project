@@ -33,37 +33,33 @@ header img {
 }
 
 nav ul {
-  list-style: none;
-  /* Remove marcadores da lista */
   margin: 0;
-  padding: 0;
-  display: flex;
-  /* Alinha os itens do menu */
-}
-
-nav li {
-  margin-left: 20px;
-  /* Espaçamento entre os itens do menu */
 }
 
 nav a {
   text-decoration: none;
-  /* Remove sublinhado dos links */
-  color: #333;
-  /* Cor do texto dos links */
+  color: var(--Verde-900);
+  font-weight: 700;
+}
+
+.btn-acessar-conta {
+  background-color: var(--Verde-900);
+  color: var(--Branco);
+  padding: .25rem .75rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .btn-abrir-conta {
-  background-color: #4CAF50;
-  /* Cor de fundo do botão */
-  color: white;
-  /* Cor do texto do botão */
-  padding: 10px 20px;
+  background-color: var(--Verde-700);
+  color: var(--Branco);
+  padding: .5rem;
   border: none;
-  border-radius: 5px;
-  /* Bordas arredondadas */
+  border-radius: 10px;
   cursor: pointer;
-  /* Muda o cursor para indicar que é clicável */
+  font-weight: 700;
 }
 
 /* Seção Hero */
@@ -74,14 +70,9 @@ nav a {
     rgb(128 249 198 / 20%)
     ), url('./assets/hero-background.jpg') center no-repeat;
   background-size: cover;
-
-  /* Imagem de fundo (substitua pelo caminho correto) */
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding: 100px 20px;
+  width: 100dvw;;
+  height: 80dvh;
   color: white;
-  /* Cor do texto branca */
 }
 
 .hero h1 {
@@ -89,7 +80,6 @@ nav a {
   /* Tamanho da fonte do título */
   margin-bottom: 20px;
 }
-
 
 .benefits {
   padding: 40px 80px;
@@ -106,7 +96,9 @@ nav a {
 }
 
 .benefits ul li {
-  background-color: #fff;
+  min-height: 225px;
+  background-color: var(--Verde-200);
+  color: var(--Verde-900);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -114,13 +106,13 @@ nav a {
 
 .benefits ul li h3 {
   font-size: 1.5em;
-  color: #007BFF;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
 .benefits ul li p {
   font-size: 1em;
-  color: #666;
+  font-weight: 300;
 }
 
 /* Seção Limite */

@@ -5,3 +5,51 @@
   --Verde-900: #0D432C;
   --Branco: #f7f7f7; 
 }
+
+.verde-200 {
+  color: var(--Verde-200);
+}
+
+.verde-500 {
+  color: var(--Verde-500);
+}
+
+.verde-700 {
+  color: var(--Verde-700);
+}
+
+.verde-900 {
+  color: var(--Verde-900);
+}
+
+.bg-verde-200 {
+  background-color: var(--Verde-200);
+}
+
+.bg-verde-500 {
+  background-color: var(--Verde-500);
+}
+
+.bg-verde-700 {
+  background-color: var(--Verde-700);
+}
+
+.bg-verde-900 {
+  background-color: var(--Verde-900);
+}
+
+.bg-verde-200-opacity-40 {
+  background: rgb(128 249 198 / 40%);
+}
+
+.font-thin {
+  font-weight: 300;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-x-bold {
+  font-weight: 900;
+}
