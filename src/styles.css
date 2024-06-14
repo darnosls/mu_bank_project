@@ -53,7 +53,7 @@ nav a:hover {
   color: var(--Verde-700);
 }
 
-.btn-acessar-conta {
+.btn-acessar-conta, .btn-voltar-home {
   background-color: var(--Verde-900);
   font-size: 1.2em;
   color: var(--Branco);
@@ -204,3 +204,74 @@ footer p {
 .cursor-pointer {
   cursor: pointer;
 }
+
+
+.signup-image {
+  background: linear-gradient(
+    60deg, 
+    rgb(128 249 198 / 20%), 
+    rgb(128 249 198 / 20%)
+    ), url('./assets/signup-image-background.jpg') center no-repeat;
+  background-size: cover;
+  width: 100dvw;;
+  height: 80dvh;
+  color: white;
+}
+
+
+
+.form-bg-color{
+  background-color: #F7F7F7;
+
+}
+
+.signup-form{
+  border-radius: 5%;
+}
+
+.side-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2.5em;
+}
+
+.side-form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 80%;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-form-labels {
+  align-self: start;
+  font-size: 1em;
+}
+
+.side-form form div input {
+  height: 3em;
+}
+
+.side-form form button {
+  height: 3em;
+  border: none;
+  background-color: #673497;
+  color: #649734;
+  font-weight: 700;
+}
+
+.side-form form button:hover {
+  background-color: #973634;
+}
+
+.side-form form button::before {
+  background-color: #cf7776;
+}
+
