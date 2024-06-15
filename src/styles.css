@@ -21,16 +21,12 @@ body {
 /* Cabeçalho */
 header {
   background-color: #fff;
-  /* Fundo branco */
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* Sombra sutil */
   display: flex;
-  /* Para alinhar logo e menu */
   justify-content: space-between;
-  /* Espaçamento entre logo e menu */
   align-items: center;
-  /* Alinhamento vertical */
+  padding-right: 3em;
 }
 
 header img {
@@ -53,7 +49,7 @@ nav a:hover {
   color: var(--Verde-700);
 }
 
-.btn-acessar-conta {
+.btn-acessar-conta, .btn-voltar-home {
   background-color: var(--Verde-900);
   font-size: 1.2em;
   color: var(--Branco);
@@ -203,4 +199,94 @@ footer p {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+
+.signup-image {
+  background: linear-gradient(
+    60deg, 
+    rgb(128 249 198 / 20%), 
+    rgb(128 249 198 / 20%)
+    ), url('./assets/signup-image-background.jpg') center no-repeat;
+  background-size: cover;
+  width: 100dvw;;
+  height: 80dvh;
+  color: white;
+}
+
+
+
+.form-bg-color, .form-box input{
+  background-color: #F7F7F7;
+
+}
+
+.signup-form{
+  border-radius: 5%;
+  margin-right: 2em;
+  padding: 2em 2em 2em 2em;
+  font-weight: bolder;
+
+}
+
+.side-form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 100%;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.btn-form-abrir-conta {
+  background-color: var(--Verde-200);
+  font-size: 2em;
+  font-weight: bolder;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.form-box input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline:0;
+  border-color: var(--Verde-200);
+}
+.signup-form h4 {
+  color: var(--Verde-700);
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 1em;
+}
+.side-form-labels {
+  align-self: start;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.side-form form div input {
+  height: 3em;
+}
+
+.footer-app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.footer-app img{
+ 
+  height: 4em;
+}
+
+.footer-app p {
+  color: var(--Verde-700);
+  font-weight: bold;
 }
