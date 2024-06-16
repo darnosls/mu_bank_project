@@ -214,7 +214,17 @@ footer p {
   color: white;
 }
 
-
+.login-image {
+  background: linear-gradient(
+    60deg, 
+    rgb(128 249 198 / 20%), 
+    rgb(128 249 198 / 20%)
+    ), url('./assets/pexels-matilda-wormwood-4099096.jpg') center no-repeat;
+  background-size: cover;
+  width: 100dvw;;
+  height: 80dvh;
+  color: white;
+}
 
 .form-bg-color, .form-box input{
   background-color: #F7F7F7;
@@ -275,7 +285,6 @@ footer p {
 }
 
 .footer-app {
-  min-height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between

@@ -20,35 +20,33 @@
         <button class="btn-voltar-home" onclick="location.href='index.html';">Home</button>
     </header>
 
-    <main>
-        <section class="signup-image d-flex flex-row-reverse align-items-center">
-          <div class="signup-form form-bg-color verde-900 w-25">
-            <h4>Crie Sua Conta</h4>
-            <form action="" class="side-form-section">
-                <div class="form-box">
-                    <label for="name" class="side-form-labels">Nome:</label>
-                    <input type="text" name="name"/>
-                </div>
-                <div class="form-box">
-                    <label for="cpf" class="side-form-labels">CPF:</label>
-                    <input type="text" name="cpf" />
-                </div>
-                <div class="form-box">
-                    <label for="password" class="side-form-labels">Senha:</label>
-                    <input type="password" name="password" />
-                </div>
-
-                <button class="btn-abrir-conta btn-form-abrir-conta shadow">Cadastrar</button>
-            </form>
-
-          </div>
+    <main class="d-flex">
+        <section class="login-image d-flex flex-row-reverse align-items-center w-75">
+          <section class="h-100"></section>
+        </section>
+        <section class="w-25 d-flex align-items-center justify-content-center">
+            <div class="signup-form form-bg-color verde-900">
+                <h4>Acesse sua Conta</h4>
+                <form action="" class="side-form-section">
+                    <div class="form-box">
+                        <label for="cpf" class="side-form-labels">E-mail:</label>
+                        <input type="text" name="cpf" />
+                    </div>
+                    <div class="form-box">
+                        <label for="password" class="side-form-labels">Senha:</label>
+                        <input type="password" name="password" />
+                    </div>
+    
+                    <button class="btn-abrir-conta btn-form-abrir-conta shadow">Acessar</button>
+                </form>
+    
+              </div>
         </section>
     </main>
         
 
     <footer class="bg-verde-200 footer-app">
         <img src="./assets/logo-mubank.png" alt="Logo MuBank">
-
         <div>
             <p>MuBank Corporation © 2024</p>
             <p>Todos direitos reservados.</p>
